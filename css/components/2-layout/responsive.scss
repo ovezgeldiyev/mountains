@@ -1,0 +1,97 @@
+// 1450px
+@include xxxxlg-xxxxxlg {
+  // @include hero-xxxxlg-xxxxxlg;
+}
+// 1380px
+@include xxxlg-xxxxlg {
+//   @include hero-xxxlg-xxxxlg;
+}
+// 1250px
+@include xlg-xxlg-extra {
+//   @include hero-xlg-xxlg-extra;
+}
+// 1180px
+@include xlg-xxlg {
+//   @include hero-xlg-xxlg;
+}
+// 1024px
+@include lg-xlg {
+//   @include hero-lg-xlg;
+}
+// 930px
+@include md-lg {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .auto__container {
+    padding: 0 30px;
+  }
+  .logo {
+    margin: 0;
+  }
+  h2 {
+    font-size: 28px;
+    b {
+      font-size: 115px;
+    }
+  }
+  @include hero-md-lg;
+  @include climb-md-lg;
+}
+// 750px
+@include sm-md {
+//   @include hero-sm-md;
+}
+// 650px
+@include sm-md-extra {
+  .auto__container {
+    padding: 0 20px;
+  }
+  @include history-sm-md-extra;
+  @include climb-sm-md-extra;
+}
+// 540px
+@include xsm-sm {
+  h2 {
+    font-size: 24px;
+    b {
+        font-size: 100px;
+      }
+  }
+  h3 {
+    &.big {
+      font-size: 16px;
+    }
+  }
+  h4 {
+    font-size: 17px;
+  }
+  body {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .logo {
+    img {
+      width: 35px;
+      height: 35px;
+      margin-right: 5px;
+    }
+  }
+  .anchor {
+    position: relative;
+    top: -60px;
+  }
+  @include header-xsm-sm;
+  @include hero-xsm-sm;
+  @include history-xsm-sm;
+  @include climb-xsm-sm;
+  @include footer-xsm-sm;
+}
+// 440px
+@include xxsm-xsm {
+//   @include hero-xxsm-xsm;
+}
+// 390px
+@include xxxsm-xxsm {
+  // @include hero-xxxsm-xxsm;
+}
